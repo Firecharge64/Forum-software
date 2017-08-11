@@ -14,7 +14,7 @@ function closeSidebar()
 
 function openSidebar()
 {
-	$('#mobile-sidebar-container').open('slide', {direction: 'right'}, 500);
+	$('#mobile-sidebar-container').show('slide', {direction: 'right'}, 500);
 	$('#realbody').css('max-width', '100%');
 	$('#realbody').css('max-height', '100%');
 	$('#realbody').css('overflow', 'hidden');
